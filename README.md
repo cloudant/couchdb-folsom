@@ -34,6 +34,10 @@ startup on the command line or in an application config file:
           > myapp.config
        $ erl -pa ebin deps/*/ebin -config myapp.config -s folsom
 
+The folsom tests can be run using rebar:
+
+       $ rebar eunit
+       
 #### Metrics API
 
 folsom_metrics.erl is the API module you will need to use most of the time.
